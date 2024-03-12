@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- The First line we include here the 3rd Party font -->
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- owl caresole css-->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">    
+    <!-- Own CSS -->
+    <link rel="stylesheet" type="text/css" href="G:\rajdeepdarpathsalawebsite\css\home.css">
+</head>
+<body>
+    <!-- The Menu Section Start -->
+        <!-- Here only logo start with left -->
+        <div class="container navbar-expand-lg navbar-light">
+            <div class="container justify-content-between" id="conatiner-menuid-one">
+                <div class="container-logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="G:\rajdeepdarpathsalawebsite\images\logo.png" class="logo-img" alt="rajdeepdarpathsala-logo">
+                        <img src="G:\rajdeepdarpathsalawebsite\images\logoname_black-removebg-preview2.png" class="logo-img-name" alt="rajdeepdarpathsala-logo-name">
+                    </a>
+                </div>
+                 <!-- Start Menu -->
+                <div class="container navbar-expand-lg navbar-light" id="conatiner-menuid-two">
+                    <ul class="nav justify-content-end text-center">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#"><b>About us</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="menu" aria-expanded="false"><b>Courses</b></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Python (Basic - Advance)</a></li>
+                            <li><a class="dropdown-item" href="#">Sql (Basic - Advance)</a></li>
+                            <li><a class="dropdown-item" href="#">Power BI (Basic - Advance) </a></li>
+                            <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">More Enqury</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Pages</b></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Home</a></li>
+                            <li><a class="dropdown-item" href="#">About us</a></li>
+                            <li><a class="dropdown-item" href="#">Courses</a></li>
+                            <li><a class="dropdown-item" href="#">Page</a></li>
+                            <li><a class="dropdown-item" href="#">Notice</a></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                        </ul>
+                        
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Courses</b></a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#"><b>Notice</b></a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#"><b>Contact</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- The Menu Section End -->
+    <!-- Start carasoule from here-->
+    <div class="container-fluid">
+        <div class="carousel slide" id="carousel-id" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousel-inner-display">
+                <div class="carousel-item active" id="carousel-id">
+                    <img src="G:\rajdeepdarpathsalawebsite\images\slider_bg.jpg" class="d-block">
+                    <div class="d-flex-collumn">
+                        <h1 class="heading-font">Standerd Syllabus<br>For Students</h1>
+                        <p class="small-font">Leading Edu-tech institution in Kolkata</p>
+                        <button type="button" class="btn btn-primary" id="carousel-button-1">Apply Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item" id="carousel-id">
+                    <img src="G:\rajdeepdarpathsalawebsite\images\slider_bg_2.jpg" class="d-block">
+                    <div class="d-flex-collumn">
+                        <h1 class="heading-font">Standerd Syllabus<br>For Students</h1>
+                        <p class="small-font">Leading Edu-tech institution in Kolkata</p>
+                        <button type="button" class="btn btn-primary thumbnail" id="carousel-button-1">Apply Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item" id="carousel-id">
+                    <img src="G:\rajdeepdarpathsalawebsite\images\slider_bg_3.jpg" class="d-block">
+                    <div class="d-flex-collumn">
+                        <h1 class="heading-font">Standerd Syllabus <br> For Students</h1>
+                        <p class="small-font">Leading Edu-tech institution in Kolkata</p>
+                        <button type="button" class="btn btn-primary" id="carousel-button-1">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Carasoule control button off -->
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carousel-id" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-id" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+        
+    <!-- Start the Row Content Declareration -->
+    <div class="container" id="second-collumn">
+        <div class="row d-flex justify-content-around">
+                <div class="col-4" id="Content_div">
+                    <div class="col-4-content">
+                        <img src="G:\rajdeepdarpathsalawebsite\images\Expert-Instructor.png" alt="Expert-Instructor">
+                        <p class="Instructor"><b>Expert-Instructor</b></p>
+                        <p class="lecture">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                        <a class="link"  href="#">Read more ></a>
+                    </div>
+                </div>
+                <div class="col-4" id="Content_div">
+                    <div class="col-4-content">
+                        <img src="G:\rajdeepdarpathsalawebsite\images\Connections-Academy.png" alt="Expert-Instructor">
+                        <p class="Instructor"><b>Expert-Instructor</b></p>
+                        <p class="lecture">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                        <a class="link" href="#">Read more > </a>
+                    </div>
+                </div>
+                <div class="col-4" id="Content_div">
+                    <div class="col-4-content">
+                        <img src="G:\rajdeepdarpathsalawebsite\images\Latest-News.png" alt="Expert-Instructor">
+                        <p class="Instructor"><b>Expert-Instructor</b></p>
+                        <p class="lecture">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                        <a class="link"  href="#">Read more ></a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- End the Row Content Declareration  -->
+    </div>
+    <!-- End carasoule here-->
+    
+    <!-- Start Welcome Note -->
+    <div class="container" id="welcome_div">
+        <div class="row g-2">
+            <div class="col-6">
+                <div class="p-1">
+                    <img src="G:\rajdeepdarpathsalawebsite\images\welcome.jpg">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-1">
+                    <div class="text-left thumbnail">
+                        <p class="campus_font"><b>Welcome To Campus</b></p>
+                        <p class="campus_text">Simply dummy text of the printing and typesetting industry. <br>
+                            Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, <br>
+                            Simply dummy text of the Simply dummy text of the printing and <br>
+                            typesetting industry. Lorem Ipsum has been the industry’s</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End here Welcome Note -->
+    <!-- Start here DEPARTMENTS -->
+    <!-- Department heading start -->
+    <div class="container-fluid mt-5 pt-2" id="departmental_div" style="background-image: url('picture.jpg')";>
+        <div class="conatiner mt-5" id="department_heading">
+            <div class="department-div-text-heading">
+                <p class="department" id="departmental-text"><b>OUR DEPARTMENTS</b></p>
+                <p class="p-department" id="departmental-text-2"><b>Popular Departments</b></p>
+            </div>
+     <!-- Department heading end -->
+     <!--Department 1stcontent starts here  -->
+            <div class="row d-flex justify-content-center" id="deparment-block">
+                <div class="col-4" id="deparment-block-collumn">
+                    <div class="col-4-departmental-content">
+                        <img src="G:\rajdeepdarpathsalawebsite\images\departmentalpic1.png" alt="Expert-Instructor">
+                        <p class="deparment-heading"><b>Electrical Engineering</b></p>
+                        <p class="deparment-heading-text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                        <a class="departmental-link"  href="#">Read more ></a>
+                    </div>
+                </div>
+                   
+                <div class="col-4" id="deparment-block-collumn">
+                    <div class="col-4-departmental-content">
+                        <img src="G:\rajdeepdarpathsalawebsite\images\departmental2.png" alt="Expert-Instructor">
+                        <p class="deparment-heading"><b>Electrical Engineering</b></p>
+                        <p class="deparment-heading-text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                        <a class="departmental-link"  href="#">Read more ></a>
+                    </div>
+                </div>
+                <div class="col-4" id="deparment-block-collumn">
+                    <div class="col-4-departmental-content" >
+                        <img src="G:\rajdeepdarpathsalawebsite\images\departmental3.png" alt="Expert-Instructor">
+                        <p class="deparment-heading"><b>Electrical Engineering</b></p>
+                        <p class="deparment-heading-text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                        <a class="departmental-link"  href="#">Read more ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- End here DEPARTMENT content -->
+    <!-- Department 2nd content starts here -->
+        <div class="row d-flex justify-content-center" id="deparment-block-2">
+            <div class="col-4" id="deparment-block-collumn">
+                <div class="col-4-departmental-content">
+                    <img src="G:\rajdeepdarpathsalawebsite\images\departmentalpic1.png" alt="Expert-Instructor">
+                    <p class="deparment-heading"><b>Electrical Engineering</b></p>
+                    <p class="deparment-heading-text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                    <a class="departmental-link"  href="#">Read more ></a>
+                </div>
+            </div>
+            
+            <div class="col-4" id="deparment-block-collumn">
+                <div class="col-4-departmental-content">
+                    <img src="G:\rajdeepdarpathsalawebsite\images\departmental2.png" alt="Expert-Instructor">
+                    <p class="deparment-heading"><b>Electrical Engineering</b></p>
+                    <p class="deparment-heading-text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                    <a class="departmental-link"  href="#">Read more ></a>
+                </div>
+            </div>
+            <div class="col-4" id="deparment-block-collumn">
+                <div class="col-4-departmental-content" >
+                    <img src="G:\rajdeepdarpathsalawebsite\images\departmental3.png" alt="Expert-Instructor">
+                    <p class="deparment-heading"><b>Electrical Engineering</b></p>
+                    <p class="deparment-heading-text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                    <a class="departmental-link"  href="#">Read more ></a>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary mt-4" id="departmental-button">VIEW MORE</button>
+    </div>
+    <!-- Department 2nd content ends here -->
+    <!-- Starting here Featured Course -->
+    <div class="container mt-5">
+        <div class="Featured-Course-heading-container">
+            <p class="Featured_Course_small"><b>BEST COURSES</b></p>
+            <p class="Featured_Course_big"><b>Featured Courses</b></p>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div class="card mt-5 mr-3">
+                <img src="\G:\rajdeepdarpathsalawebsite\images\featured_01.jpg" class="card-img-top" alt="card-image">
+                <div class="card-body">
+                  <h5 class="card-title">Python Basic</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-primary" id="card-button">Apply now</a>
+                </div>
+            </div>
+            <div class="card mt-5 mr-3">
+                <img src="\G:\rajdeepdarpathsalawebsite\images\featured_02.jpg" class="card-img-top" alt="card-image">
+                <div class="card-body">
+                  <h5 class="card-title">Python Basic</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-primary" id="card-button">Apply now</a>
+                </div>
+            </div>
+            <div class="card mt-5">
+                <img src="\G:\rajdeepdarpathsalawebsite\images\featured_03.jpg" class="card-img-top" alt="card-image">
+                <div class="card-body">
+                  <h5 class="card-title">Python Basic</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-primary" id="card-button">Apply now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ending here Featured Course -->
+    <!-- Our Teachchers Div Starts here -->
+    <div class="conatiner mt-5" id="Teachchers_div" style="background-image: url('big_bg_2.jpg');">
+        <div class="container-faculty-text">
+            <p class="department"><b>OUR TEACHERS</b></p>
+            <p class="p-department"><b>Best Certified Faculty</b></p>
+        </div>
+        <div class="faculty-container-displaying">
+            <div class="card mt-5" id="faculty_card">
+                <img src="\G:\rajdeepdarpathsalawebsite\images\member_04.jpg" class="Faculty-card-img-top" alt="card-image">
+                <div class="card-body text-center">
+                  <h5 class="card-title">John Vaughn</h5>
+                  <h6 class="card-post">Website Designer</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+            </div>
+            <div class="card mt-5" id="faculty_card">
+                <img src="\G:\rajdeepdarpathsalawebsite\images\member_05.jpg" class="Faculty-card-img-top" alt="card-image">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Piat Niha</h5>
+                  <h6 class="card-post">Website Designer</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+            </div>
+            <div class="card mt-5" id="faculty_card">
+                <img src="\G:\rajdeepdarpathsalawebsite\images\member_06.jpg" class="Faculty-card-img-top" alt="card-image">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Struat Biok</h5>
+                  <h6 class="card-post">Website Designer</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+                </div>
+            </div>
+        </div>
+       
+    </div>
+     <!-- Our Teachchers Div Ends here -->
+    <!-- Why we best container start -->
+    <div class="container-fluid" id="why-best-container" style="background-image: url('big_bg_3.jpg');">
+        <div class="container d-flex" id="why_us_container">
+           <div class="col-6">
+                <img class="why_us_container-img" src="\G:\rajdeepdarpathsalawebsite\images\half_column_3.png">
+            </div>
+            <div class="col-6 thumbnail" id="why_us_container_content">
+                <p class="w-b-c-caption"><b>World Best Univercity</b></p>
+                <p class="w-b-c-text">Smply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt. <br>
+                    Smply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</p>
+                <button type="button" class="btn btn-primary" id="button-id"><b>Join Now</b></button>
+            </div>
+        </div>
+    </div>
+    <!-- Why we best container end -->
+    <!-- Start students feedback carousel -->
+    <div class="conatiner mt-5" id="students-feedback">
+        <div class="students_feed_heading">
+            <p class="testimonial_font">TESTIMONIALS</p>
+            <p class="feedback_font">Our Student Saying...</p>
+        </div>
+        <div class="container mt-3" id="students_feed_carousel">
+            <div class="carousel slide" id="std-feed-carousel-Controls" data-bs-ride="carousel">
+                <div class="carousel-inner" id="std-feed-carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-flex justify-content-around" id="wrap-div">
+                        <div class="wrap-1">
+                            <div class="thumbnail" id="std-feed">
+                                <img class="wrap-1_img" src="\G:\rajdeepdarpathsalawebsite\images\author_01.jpg">
+                                <p class="testimonial_text"><i><b>Smply dummy text of the printing and typesetting industry.<br> Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</b></i></p>
+                                <p class="std-feed-heading"><b>Kaustav Aich</b></p>
+                            </div>
+                        </div> 
+                        <div class="wrap-1">
+                            <div class="thumbnail" id="std-feed">
+                                <img class="wrap-1_img" src="\G:\rajdeepdarpathsalawebsite\images\author_01.jpg">
+                                <p class="testimonial_text"><i><b>Smply dummy text of the printing and typesetting industry.<br> Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</b></i></p>
+                                <p class="std-feed-heading"><b>Kaustav Aich</b></p>
+                            </div>
+                        </div> 
+                    </div>
+                  </div>
+                 <div class="carousel-item">
+                    <div class="d-flex justify-content-around" id="wrap-div">
+                        <div class="wrap-1">
+                            <div class="thumbnail" id="std-feed">
+                                <img class="wrap-1_img" src="\G:\rajdeepdarpathsalawebsite\images\author_01.jpg">
+                                <p class="testimonial_text"><i><b>Smply dummy text of the printing and typesetting industry.<br> Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</b></i></p>
+                                <p class="std-feed-heading"><b>Dhaka Aich</b></p>
+                            </div>
+                        </div> 
+                        <div class="wrap-1">
+                            <div class="thumbnail" id="std-feed">
+                                <img class="wrap-1_img" src="\G:\rajdeepdarpathsalawebsite\images\author_01.jpg">
+                                <p class="testimonial_text"><i><b>Smply dummy text of the printing and typesetting industry.<br> Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</b></i></p>
+                                <p class="std-feed-heading"><b>Bubai Aich</b></p>
+                            </div>
+                        </div> 
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-flex justify-content-around" id="wrap-div">
+                        <div class="wrap-1">
+                            <div class="thumbnail" id="std-feed">
+                                <img class="wrap-1_img" src="\G:\rajdeepdarpathsalawebsite\images\author_01.jpg">
+                                <p class="testimonial_text"><i><b>Smply dummy text of the printing and typesetting industry.<br> Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</b></i></p>
+                                <p class="std-feed-heading"><b>Anindita Aich</b></p>
+                            </div>
+                        </div> 
+                        <div class="wrap-1">
+                            <div class="thumbnail" id="std-feed">
+                                <img class="wrap-1_img" src="\G:\rajdeepdarpathsalawebsite\images\author_01.jpg">
+                                <p class="testimonial_text"><i><b>Smply dummy text of the printing and typesetting industry.<br> Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</b></i></p>
+                                <p class="std-feed-heading"><b>Natasha Aich</b></p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#std-feed-carousel-Controls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#std-feed-carousel-Controls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+        </div>
+    </div>
+    <!-- Ends students feedback carousel -->
+    <!-- Starts Footer -->
+    <div class="container-fluid" id="footer" style="background-image: url('footer_bg.jpg');">
+        <div class="container" id="footer-div">
+            <div class="row d-flex justify-content-between" id="footer-display">
+                <div class="col" id="footer-div1">
+                    <img src="G:\rajdeepdarpathsalawebsite\images\logo.png" class="logo-footer"> 
+                    <p class="footer-text">59/I, Sarkar Para Rd, Halisahar,Kanchrapara,<br>West Bengal 743134</p>
+                    <p class="footer-text-no">+91 74395 37098</p>
+                </div>
+                <div class="col" id="footer-div2">
+                    <a href="#" class="link-heading"><p>USEFUL LINKS</p></a>
+                    <p class="useful_link_link">About us</p>
+                    <p class="useful_link_link">Apply us</p>
+                    <p class="useful_link_link">Contact us</p>
+                    <p class="useful_link_link">Mail us</p>
+                    <p class="useful_link_link">Review</p>
+                </div>
+                <div class="col" id="footer-div3">
+                    <a href="#" class="link-heading"><p>OUR SERVICE</p></a>
+                    <p class="useful_link_link">About</p>
+                    <p class="useful_link_link">Apply us</p>
+                    <p class="useful_link_link">Contact us</p>
+                    <p class="useful_link_link">Mail us</p>
+                    <p class="useful_link_link">Review</p>
+                </div>
+            </div>
+            <hr class="hr_class">
+            <div class="desiner-pov">
+                <p class="designer-text">Rajdeep Dar Pathsala 2024 , All Rights Reserved.</p>
+                <p class="designer-text-2">Designed by Kaustav Aich</p>
+            </div>
+        </div>
+        
+    </div>
+        
+    <!-- Ends Footer -->
+    <!-- The last lines before closing the body tag here its JS -->
+    <!-- owl carasoel and jQueery js file -->
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script>
+       
+        function modal_func()
+        {
+            var menu_modal = document.getElementById("search-icon2").innerHTML;
+            document.getElementsByClassName('display-modal').innerHTML=menu_modal;
+        }
+
+    </script> -->
+</body>
+</html>

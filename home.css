@@ -1,0 +1,366 @@
+*{padding: 0px;
+  margin: 0px;}
+  /* Start css  logo */
+#conatiner-menuid-one {display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      text-align: center;
+                      }
+
+.navbar-brand {justify-content: space-between;
+              }
+.logo-img {width: 70px;
+           height: 70px;
+          }
+.logo-img-name {width: 200px;
+                height: 80px;
+               }
+#search-icon {width: 60px;
+              height: 50px;}
+/* Ends css logo */
+/* Starts css menu with dropdown  */
+#conatiner-menuid-two{margin-left: 10px;}
+.nav-item {background-color:none;
+          }
+.nav-item:hover {background-color:white
+                }
+.nav-link {color: rgb(125, 125, 125);
+           font-size: 16px;}
+.nav-link:hover {color:rgb(56, 56, 56);
+            font-size: 16px;}
+.dropdown-item {background-color: none;
+               }
+.dropdown-item:hover {background-color: rgba(5, 150, 44, 0.765);
+                      color:white
+                     }
+/* Ends css menu with dropdown  */
+/* Starts Carousel */
+#carousel-inner-display{background-color: black;
+                       }
+.d-block {width:100%;
+          height: 800px;
+          opacity: 0.4;
+          object-fit: cover;
+                   }
+#carousel-id {position: relative;
+             }
+.d-flex-collumn {
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  margin-left: 65px;
+                  padding-left: 40px;
+                  color: rgb(253, 253, 253);
+                  padding-top: 55px;
+                  margin-top: 55px;
+                }
+.heading-font {font-size: 70px;
+              }
+.small-font {font-size: 20px;
+            }
+.btn {padding: 15px 30px;
+      border: none;
+      background-color: rgba(5, 150, 44, 0.765);
+      border-radius: 15px;
+     }
+.carousel-indicators {padding-bottom:20px;
+                     }
+/* Ends css Caraousel*/
+/* Start css 3 row-col */
+#second-collumn{position: relative;
+                bottom: 100px;
+               }
+#Content_div {background-color: rgba(5, 150, 44, 0.765);
+              width: 350px;
+              height: 350px;
+              
+             }
+#Content_div:hover {width: 350px;
+                    height: 350px;
+                    background-color: rgb(5, 27, 44);
+                    }
+
+.col-4-content {color: white;
+                padding: 50px;
+                margin: auto;
+                text-align: center;
+                align-items: center;
+               }
+.Instructor {font-size: 25px;
+             margin: 10px;
+            }
+.lecture {font-size: 15px;
+          margin: 10px;
+         } 
+.link {text-decoration: none;
+       color:white;
+       font-size: 20px;
+      }
+.link:hover {text-decoration: none;
+            color:rgb(225, 224, 224);
+            font-size: 20px;
+            }
+/* Ends here css 3 row-col */
+/* Start css welcome note */
+
+.p-1 img{width: 550px;
+         height: 350px;
+        }
+.campus_font{font-size: 60px;
+            }
+.campus_text{font-size: 15px;
+            }
+/* /* Ends css welcome note */ 
+/* Start here CSS DEPARTMENTS */
+#department_heading{margin-top: 25px;
+                    }
+#departmental_div{
+                  height: 180vh;
+                 }
+
+#department-div-text-heading {text-align: center;
+                     padding: 0px 0px;
+                     margin: 0px 0px;
+                    }
+.mt-5{text-align: center;
+     }
+#departmental-text {
+             color:rgba(248, 237, 37, 0.765);
+             font-size: 20px;
+             padding: 0px 0px;
+             margin: 0px 0px;
+            }
+ #departmental-text-2 {color: rgb(253, 253, 253);
+               font-size:50px;
+               padding: 0px 0px;
+               margin: 0px 0px;
+               }
+#deparment-block {margin-top: 15px;
+                  padding-top: 15px;
+                 }
+#deparment-block-collumn {background-color: none;
+                          width: 350px;
+                          height: 350px;
+                          border: 2px solid rgba(179, 180, 179, 0.765);
+                          margin: 15px;
+                         }
+#deparment-block-collumn:hover {background-color: white;
+                                width: 350px;
+                                height: 350px;
+                                border: 2px solid rgba(5, 150, 44, 0.765);
+                                box-shadow: 10px 10px 5px rgba(197, 198, 197, 0.765);
+                               }
+.col-4-departmental-content {color: rgb(9, 9, 9);
+                             padding: 40px;
+                             margin: auto;
+                             text-align: center;
+                             align-items: center;
+                             }
+.col-4-departmental-content img{width: 80px;
+                                height: 80px;}
+.deparment-heading {font-size: 20px;
+                    margin: 10px;
+                    color:rgba(248, 237, 37, 0.765);
+                    margin-top: 25px;
+                   }
+.deparment-heading-text {font-size: 15px;
+                         margin: 10px;
+                         color:rgb(15, 15, 15);
+                        }
+.departmental-link {text-decoration: none;
+                    color:rgba(248, 237, 37, 0.765);
+                    font-size: 20px;
+                    }
+.departmental-link:hover {text-decoration: none;
+                         color:rgb(13, 13, 13);
+                         font-size: 20px;
+                         }
+#deparment-block-2{margin-top: 10px;
+                   padding-top: 10px;
+                  }
+#departmental-button button{background-color: rgba(5, 150, 44, 0.765);
+                           border: none;
+                           color: white;
+                           padding:25px 30px;
+                           text-align: center;
+                           }
+#departmental-button:hover{background-color: white;
+                          border: 2px solid rgba(5, 150, 44, 0.765);
+                          color: rgb(9, 9, 9);
+                          box-shadow: 10px 10px 5px rgba(197, 198, 197, 0.765);
+                          text-align: center;
+                          }
+/* Ends here CSS DEPARTMENTS */
+/* Strats css Featured Course */
+.Featured_Course_small{color: rgba(5, 150, 44, 0.765);
+                      font-size: 20px;
+                      padding: 0px 0px;
+                      margin: 0px 0px;
+                      }
+.Featured_Course_big{color: rgb(5, 27, 44);
+                    font-size:50px;
+                    padding: 0px 0px;
+                    margin: 0px 0px;
+                    }
+.Featured-Course-heading-container{margin: 0px 0px;
+                                  text-align: left;
+                                  }
+/* .d-flex{margin: 15px;} */
+.card{text-align: start;
+      width: 350px;
+      }
+.card:hover {border: 2px solid rgba(5, 150, 44, 0.765);
+             box-shadow: 10px 20px 20px rgba(197, 198, 197, 0.765);;
+            }
+.card-img-top{height: 250px;
+              width:  346px;
+            }
+.card-title{font-size: 35px;
+           }
+.card-text{font-size: 15px;
+          }
+#card-button button {background-color: rgba(5, 150, 44, 0.765);
+                    border: none;
+                    color: white;
+                    padding:25px 30px;
+                    text-align: center;
+                    }
+#card-button:hover {background-color: white;
+                    border: 2px solid rgba(5, 150, 44, 0.765);
+                    color: rgb(9, 9, 9);
+                    box-shadow: 10px 10px 5px rgba(197, 198, 197, 0.765);
+                    text-align: center;
+                   }
+/* Ends css Featured Course */
+/* Start css Faculty */
+#Teachchers_div{height: 100vh;
+               }
+.container-faculty-text{padding: 15px;}
+.Faculty-card-img-top {height: 250px;
+                       width:  346px;
+                       transition:ease-in-out;
+                       transition-duration: 1s;
+                       transform-origin: center;
+                       
+                      }
+.Faculty-card-img-top:hover { transform: scale(1.1);
+                            }
+.faculty-container-displaying{display: flex;
+                              justify-content: center; 
+                             }
+#faculty_card{margin: 10px;
+             }
+/* Ends css faculty */
+/* Start css why-us container */
+#why-best-container{
+                    height: 80vh;
+                   }
+#why_us_container {
+                   align-items: center;
+                   padding: 0px 0px;
+                   margin: auto;
+                   height: 80vh;
+                  }
+.why_us_container-img{width: 555px;
+                      height: 339px;
+                     }
+.w-b-c-caption{font-size: 45px;
+               color: white;
+              }
+.w-b-c-text {font-size: 20px;
+             color: white;
+            }
+#button-id {background-color: rgba(5, 150, 44, 0.765);
+            border: none;
+            color: white;
+            padding:15px 30px;
+            text-align: center;
+           }
+#button-id:hover {background-color: white;
+            border: none;
+            color: rgba(5, 150, 44, 0.765);
+            padding:15px 30px;
+            text-align: center;
+            color:black
+           }
+/* End css why-us container */
+/* sart students feedback */
+.students_feed_heading{padding: 10px 0px;
+                       margin: 10px 0px;
+                      }
+.testimonial_font{color: rgba(5, 150, 44, 0.765);
+                  font-size:20px ;
+                  margin: 0px 0px;}
+.feedback_font{color: rgba(5, 27, 44);
+              font-size: 50px;}
+.wrap-1{width: 500px;
+        height: 250px;
+        border: 2px solid rgba(5, 150, 44, 0.765);
+        position: relative;
+        margin: 15px;
+       }
+#std-feed{position: absolute;
+          text-align: left;
+          margin: 0px 25px;
+          padding: 0px 0px 0px 0px;
+          bottom: 0px;}
+.wrap-1_img{width: 100px;
+            height: 100px;
+           }
+.testimonial_text{font-size: 20px;
+                  margin: 5px;
+                 }
+.std-feed-heading {font-size: 15px;
+                  color: rgb(2, 2, 51);
+                  margin: 5px;
+                  }
+/* Ends student feed */
+/* Start footer */
+#footer{height: 80vh;
+        position: relative;
+       }
+.logo-footer{width:  100px;
+             height: 100px;}
+
+.display-flex {
+              display: flex !important;
+              justify-content: space-between !important;
+              align-items: center !important;
+              text-align: center;
+              height: 100vh;
+          }
+#footer-display {padding: 40px 40px;
+                 margin: auto;
+                 top: 0;
+                 left: 0;
+                }
+#footer-div1 {text-align: start;
+             }
+#footer-div2 {text-align: center;
+             }
+.footer-text{color: white;
+             font-size: 20px;
+            }
+.footer-text-no {color: white;
+                 font-size: 25px;}
+.link-heading {text-decoration: none;
+               font-size: 30px;
+               color: white;
+              }
+.useful_link_link{color: white;
+                   font-size: 20px;
+                 }
+.hr_class {width: 100%;
+           height: 2px;
+          background-color: white;}
+.desiner-pov{margin: 15px 0px;
+             display: flex;
+             justify-content: space-between;
+            }
+.designer-text {color: rgba(248, 237, 37, 0.765);
+                font-size: 15px;
+               }
+.designer-text-2 {color: rgba(248, 237, 37, 0.765);
+                  font-size: 15px;
+}
+/* #footer-div {margin: 10px;} */
